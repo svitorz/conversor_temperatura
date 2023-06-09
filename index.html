@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h1>Conversor de temperatura</h1>
+
+        <div class="container-fluid ">
+            <div class="center">
+        <input class="flex-box" type="number" name="celsius" id="celsius" placeholder="celsius" onfocusout="conversorCelsius()"=>
+        <input class="flex-box" type="number" name="fahrenheit" id="fahrenheit" placeholder="fahrenheit" onfocusout="conversorFah()">
+        <input  class="flex-box" type="number" name="kelvin" id="kelvin" placeholder="kelvin" onfocusout="conversorKelvin()">
+        <button type="submit" id="submit_button">Enviar</button>
+        <button type="reset" id="reset_button" onclick="limpar()">Limpar</button>
+            </div>
+    </div>
+</body>
+</html>

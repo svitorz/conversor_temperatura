@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    margin: 40px;
+}
+input {
+    height: 100px;
+    width: 500px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.container-fluid {
+    width: 100%;
+    height: 100%;
+}
+.center {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+}
+#celsius {
+    background-color: blueviolet;
+    border: 1px solid white;
+}
+#fahrenheit {
+    background-color: purple;
+    border: 1px solid white;
+}
+#kelvin {
+    background-color:darkblue;
+    border: 1px solid white;
+}
+
+::-webkit-input-placeholder {
+    color: #FFFFFF !important;
+    text-align: center;
+  }
+  ::-moz-placeholder {
+    color: #FFFFFF !important;
+    text-align: center;
+  }
+  :-ms-input-placeholder {
+    color: #FFFFFF !important;
+    text-align: center;
+  }
+  :-moz-placeholder {
+    color: #FFFFFF !important;
+    text-align: center;
+  }
+button[type=reset]{
+    width: 200px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 10px;
+    border: 0px white;
+    color: white;
+}
+button[type=submit]{
+    width: 200px;
+    height: 30px;
+    background-color: green;
+    border-radius: 10px;
+    border: 0px white;
+    color: white;
+}
